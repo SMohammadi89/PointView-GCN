@@ -1,8 +1,8 @@
 # Code for PointView-GCN [ICIP2021].
 Seyed Saber Mohammadi, Yiming Wang, Alessio Del Bue. *PointView-GCN: 3D shape classification with multi-view point clouds.* You can find IEEE version of the paper [here](https://ieeexplore.ieee.org/document/9506426).
-#Citation
-If you find our work useful in your research, please consider citing:
 
+# Citation
+If you find our work useful in your research, please consider citing:\
 @inproceedings{mohammadi2021pointview,\
   title={Pointview-GCN: 3D Shape Classification With Multi-View Point Clouds},\
   author={Mohammadi, Seyed Saber and Wang, Yiming and Del Bue, Alessio},\
@@ -12,3 +12,5 @@ If you find our work useful in your research, please consider citing:
   organization={IEEE}\
 }
 
+# Dataset
+You can find our generated dataset with partial single-view PCDs generated from benchmark dataset ModelNet40  
