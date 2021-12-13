@@ -13,4 +13,18 @@ If you find our work useful in your research, please consider citing:\
 }
 
 # Dataset
-You can find our generated dataset with partial single-view PCDs generated from benchmark dataset ModelNet40  
+You can find our dataset with partial [single-view PCDs](https://drive.google.com/drive/folders/1S0QN6nZAUpky5ypRVzOcDucPqMDnd8wl?usp=sharing) generated from benchmark dataset ModelNet40. Plese download the dataset and put it under data\single_view_modelnet.
+
+# Training 
+
+First use the pre-trained model to extract the features from each single-view PCD.
+
+*cd Feature_extraction*\
+*python main.py*
+
+Then apply the GCN to aggregate and classify the features.
+
+*cd GCN*\
+*python main.py*
+
+
