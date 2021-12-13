@@ -17,14 +17,19 @@ You can find our dataset with partial [single-view PCDs](https://drive.google.co
 
 # Training 
 
-First use the pre-trained model to extract the features from each single-view PCD.
+First use the pre-trained model to extract the features from each single-view PCD:
 
 *cd Feature_extraction*\
 *python main.py*
 
-Then apply the GCN to aggregate and classify the features.
+Then apply the GCN to aggregate and classify the features:
 
 *cd GCN*\
+*python main.py*
+
+You can also train the backbone from scratch:
+
+*cd PointNet++*\
 *python main.py*
 
 
