@@ -13,7 +13,7 @@ If you find our work useful in your research, please consider citing:\
 }
 
 # Dataset
-You can find our dataset with partial [single-view PCDs](https://drive.google.com/drive/folders/1S0QN6nZAUpky5ypRVzOcDucPqMDnd8wl?usp=sharing) generated from benchmark dataset ModelNet40. Plese download the dataset and put it under data\single_view_modelnet.
+You can find our dataset with partial [single-view PCDs](https://drive.google.com/file/d/1Z-Te9Vw_PhQDCIc_zxyemwiBjI-BeBLK/view?usp=sharing) generated from benchmark dataset ModelNet40. Plese download the dataset and put it under data\single_view_modelnet.
 
 # Training 
 
