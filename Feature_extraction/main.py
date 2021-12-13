@@ -54,7 +54,7 @@ if __name__ == '__main__':
                 os.makedirs(out_file)
 
             path = os.path.join(out_file, name2 + '.pth')
-            # torch.save(features_train, path)
+            torch.save(features_train, path)
             vote_pool = torch.zeros(target1.shape[0], args.num_class).cuda()
             for _ in range(1):
                 pred, _,_  = classifier(points)
@@ -91,7 +91,7 @@ if __name__ == '__main__':
                 os.makedirs(out_file)
 
             path = os.path.join(out_file, name2 + '.pth')
-            # torch.save(features_test, path)
+            torch.save(features_test, path)
             vote_pool = torch.zeros(target1.shape[0], args.num_class).cuda()
             for _ in range(1):
                 pred, _,_  = classifier(points)
@@ -107,7 +107,6 @@ if __name__ == '__main__':
         print(class_acc_test[:, 2])
         class_acc_test = np.mean(class_acc_test[:, 2])
         instance_acc_test = np.mean(mean_correct_test)
-        # return instance_acc, class_acc
         print('test Instance Accuracy: %f, Class Accuracy: %f' % (instance_acc_test, class_acc_test))
 
 
