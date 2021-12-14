@@ -39,6 +39,11 @@ python main.py
 ```
 
 # Dataset generation
-First download the normalize version of ModelNet40 dataset [ModelNet40](https://drive.google.com/drive/my-drive). Then 
+First download the normalize version of ModelNet40 dataset [ModelNet40_normalized](https://drive.google.com/drive/my-drive) and put it under the "data" directory. then run the following comment: 
+```
+cd dataset_rendering
+python dataset_capturing.py --out-split-dir /train/ && python dataset_capturing.py --out-split-dir /test/
+
+```
 
 
