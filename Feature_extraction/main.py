@@ -86,7 +86,7 @@ if __name__ == '__main__':
             # scene_name = name1[:-13]
             scene_name = data[2][-1]
             name2 = name1[:-4]
-            out_file = args.ckpt_path + str(scene_name) + '/' + 'test'
+            out_file = args.output_data_path + str(scene_name) + '/' + 'test'
             if not os.path.exists(out_file):
                 os.makedirs(out_file)
 
