@@ -45,5 +45,6 @@ cd dataset_rendering
 python dataset_capturing.py --out-split-dir /train/ && python dataset_capturing.py --out-split-dir /test/
 
 ```
+Note that, since the dataset generation takes a huge amount of the time, we provided the final version of the generated [single-view PCDs](https://drive.google.com/file/d/1Z-Te9Vw_PhQDCIc_zxyemwiBjI-BeBLK/view?usp=sharing).
 
 
