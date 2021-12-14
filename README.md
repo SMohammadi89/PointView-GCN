@@ -39,6 +39,6 @@ python main.py
 ```
 
 # Dataset generation
-
+First download the normalize version of ModelNet40 dataset [ModelNet40](https://drive.google.com/drive/my-drive). Then 
 
 
