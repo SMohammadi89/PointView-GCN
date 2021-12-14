@@ -56,7 +56,7 @@ if __name__ == '__main__':
     parser.add_argument('--iteration', type=int, default=1, help="Number of iteration")
     parser.add_argument('--camera-pose', type=str, default="../Dataset_rendering/camera_position.mat", help="path to the camera pose")
     parser.add_argument('--output-dir', type=str, default="../data/single_view_modelnet/", help="generated_single_view_pcd")
-    parser.add_argument('--input-dir', type=str, default="/media/smohammadi/Seagate Expansion Drive/ModelNet40_Normalize_1/", help="generated_single_view_pcd")
+    parser.add_argument('--input-dir', type=str, default="../data/ModelNet40_Normalize_1/", help="generated_single_view_pcd")
     #path of the input split train/test, here you just have to run two times the code and chenge the "train" to test
     parser.add_argument('--out-split-dir', type=str, default="/train/", help="the split of the input/output data")
     args = parser.parse_args()
